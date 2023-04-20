@@ -1,0 +1,19 @@
+:root {
+  --hero-bgc: #141414;
+  --hero-text-color: #ffffff;
+  --hero-watches-bgc: #1e2827;
+  --slider-color: rgba(255, 255, 255, 0.5);
+  --description-color: rgba(20, 20, 20, 0.5);
+  --new-watches-subtitle-color: rgba(20, 20, 20, 0.4);
+  --footer-icons-color: rgba(255, 255, 255, 0.1);
+  --footer-privacy: #c6cdd1;
+  --hover-button-border: #ffffff;
+  --sale-section-bgc: #efefef;
+
+  --hover-button-bgc: #131919;
+  --link-active-color: #595e5e;
+
+  /* Останні дві CSS-змінні зроблені від себе, тому що в ТЗ не прописано. 
+  Перша - hover на кнопку. Друга - відображення активної сторінки користувача
+  (Сторінки, на якій зараз знаходиться користувач) */
+}
