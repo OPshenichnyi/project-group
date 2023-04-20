@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+.about-container {
+    max-width: 335px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+.about {
+    margin: auto;
+    
+}
+.about-title {
+    margin-bottom: 40px;
+}
+.about-text {
+    margin-bottom: 20px;
+}
+@media screen and (min-width: 0px) {
+    .about {
+        max-width: 375px;
+    }
+        .about-image {
+            background-color: #dfdfdf;
+            margin: 0 auto;
+            margin-top: 40px;
+            
+        }
+}
