@@ -1,46 +1,243 @@
 
- @import url('./variables.css');
+@import url('./variables.css');
 
 /* =====================COMMON=============== */
-.link {
-    text-decoration: none;
-}
 
-.list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
 .container {
     margin: 0 auto;
     width: 100%;
-    max-width: 335px;
+    max-width: 375px;
     padding-left: 20px;
     padding-right: 20px;
-
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--);
 }
-
 
 @media screen and (min-width:768px) {
     .container {
         max-width: 768px;
+        padding-left: 32px;
+            padding-right: 32px;
     }
-
 }
 
 @media screen and (min-width:1280px) {
     .container {
-        max-width: 1158px;
-        padding-left: 15px;
-        padding-right: 15px;
-
+        max-width: 1216px;       
     }
 
 }
 /* ===========MOBILE================== */
+
+@media screen and (min-width:375px),
+(max-width:767px) {
 footer {
     background-color: #1E2827;
     color: #FFFFFF;
+}
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.footer-logo{
+ display: flex;
+    margin-bottom: 40px;
+    width: 40px;
+    height: 40px;
    
+  
+}
+.footer-logo-icons{
+    fill: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    stroke-width: 0;
+        stroke: currentColor;
+    width: 40px;
+    height: 40px;
+}
+.footer-address{
+    margin-bottom: 40px;
+}
+.address-list .item{
+    max-width: 141px;
+    font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        transition: color var();
+}
+.address-list .item:is(:hover, :focus) {
+    color: #595e5e;
+}
+.address-list .item:not(:last-child){
+    margin-bottom: 20px;
 }
 
+.footer-nav{
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+.footer-nav-item {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+
+}
+.footer-nav-link{
+    transition: color var();
+}
+.footer-nav-link:is(:hover, :focus) {
+    color: #595e5e;
+}
+.footer-socials{
+    margin-bottom: 80px;
+}
+.foot-social-list{
+    display: flex;
+    gap: 14px;
+}
+.social-list-link{
+    display: flex;
+       
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        transition: background var();
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+    }
+.social-list-icons{
+    width: 24px;
+    height: 24px;
+}
+ .social-list-link:is(:hover, :focus) {
+     background:#131919;
+ }
+      
+    .footer-terms-text{
+        font-family: 'Epilogue';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 1.17;
+            letter-spacing: -0.02em;
+            color: #C6CDD1;
+            transition: color var();
+    }
+    .footer-terms-list{
+        display: flex;
+        gap: 14px;
+        margin-top: 14px;
+    }
+        .footer-terms-text:is(:hover, :focus) {
+            color: #595e5e;
+        }
+}
+/* ======================== TABLET ========================== */
+@media screen and (min-width:768px){
+
+.footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        position: static;
+        gap: 152px 142px;
+        padding-top: 80px;
+    }
+.footer-nav {
+    position: static;
+    
+}
+.footer-logo {
+   
+    width: 50px;
+    height: 50px;
+}
+.footer-address {
+    margin-bottom: 0px;
+}
+.address-list .item {
+    max-width: 175px;
+    font-size: 18px;
+        line-height: 1.33;
+}
+.social-list-link{
+    width: 44px;
+        height: 44px;
+}
+
+.social-list-icons {
+    width: 28px;
+    height: 28px;
+}
+
+.foot-social-list {
+    gap: 16px;
+}
+
+.footer-nav-item {
+    /* font-weight: 400;
+    font-size: 18px;
+    line-height: 1.33; */
+    margin-bottom: 18px;
+}
+.footer-logo-icons {
+    width: 50px;
+    height: 50px;
+}
+ .footer-terms-text {
+    text-align: center;
+     font-size: 14px;
+     line-height: 1.29;
+    opacity: 0.9;
+}
+.footer-terms{
+    display: flex;
+    align-items: baseline;
+    gap: 200px;}
+
+  .footer-terms-list {
+    gap: 18px;
+    margin-top: 0px; }
+
+}
+
+/* ======================== DESKTOP ========================== */
+@media screen and (min-width:1280px){
+.footer-container {
+        gap: 0px;
+        padding-top: 104px;
+        padding-bottom: 32px;
+    }
+        .footer-address {
+            margin-bottom: 174px;
+            margin-right: 355px;
+        }
+.footer-nav {
+    margin-right: 367px;
+
+}
+.footer-nav-item {
+    
+    font-size: 18px;
+    line-height: 1.33;
+    margin-bottom: 18px;
+}
+.footer-terms {
+    gap: 680px;
+}
+}
