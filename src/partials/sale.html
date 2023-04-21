@@ -1,9 +1,8 @@
-<p>Женя Кіріченко</p>
 <link rel="stylesheet" href="/src/css/sale.css" />
-<section class="sale-section">
-  <div class="container">
-    <h2 class="sale-title">Sale</h2>
-    <div class="wqerty">
+<section class="sale-section" id="sale">
+  <h2 class="sale-title">Sale</h2>
+  <div class="all">
+    <div class="container">
       <ul class="sale-list">
         <li class="sale-item">
           <picture>
@@ -68,44 +67,52 @@
           </picture>
         </li>
       </ul>
-    </div>
-    <picture>
-      <source
-        srcset="
-          ../img/sale-slider-desc-tab/1x/desc-sale-main-img.jpg    1x,
-          ../img/sale-slider-desc-tab/2x/desc-sale-main-img-2x.jpg 2x
-        "
-        media="(max-width: 767px)"
-        type="image/jpg"
-      />
-      <img src="../img/sale-slider-desc-tab/1x/desc-sale-main-img.jpg" alt="" />
-    </picture>
-  </div>
 
-  <div>
-    <div>
-      <h3>Greenlane Watch By Police For MenHT</h3>
-      <p>Product tag: PEWJK2227003</p>
-      <p>€700</p>
-      <p>€1000</p>
+      <picture>
+        <source
+          srcset="
+            ../img/sale-slider-desc-tab/1x/desc-sale-main-img.jpg    1x,
+            ../img/sale-slider-desc-tab/2x/desc-sale-main-img-2x.jpg 2x
+          "
+          media="(max-width: 767px)"
+          type="image/jpg"
+        />
+        <img
+          class="main-img"
+          src="../img/sale-slider-desc-tab/1x/desc-sale-main-img.jpg"
+          alt=""
+        />
+      </picture>
     </div>
+
     <div>
-      <h4>Description</h4>
-      <p>
-        Richly detailed with an understated design - the Police Men’s Greenlane
-        watch features a versatile multifunction design that fits effortlessly
-        into work and play. The steel case is adorned with a semi-transparent
-        black dial. The timepiece exhibits a contrast through a black IP
-        bracelet with matching crown and pushers.
-      </p>
-    </div>
-    <div>
-      <h4>DETAILS & FEATUREStion</h4>
-      <p>
-        Gender: man Size: 46x54.5mm Case Colour: Steel Band Material:Metal Case
-        Material: Metal Features: Multifunction Water Resistant: 5 (ATM) Band
-        Colour: Steel
-      </p>
+      <div class="bez-linii">
+        <h3 class="title-description">Greenlane Watch By Police For MenHT</h3>
+        <p>Product tag: PEWJK2227003</p>
+        <p>€700</p>
+        <p>€1000</p>
+      </div>
+      <div class="linia-1">
+        <h4>Description</h4>
+        <p>
+          Richly detailed with an understated design - the Police Men’s
+          Greenlane watch features a versatile multifunction design that fits
+          effortlessly into work and play. The steel case is adorned with a
+          semi-transparent black dial. The timepiece exhibits a contrast through
+          a black IP bracelet with matching crown and pushers.
+        </p>
+      </div>
+      <div class="linia">
+        <h4>DETAILS & FEATUREStion</h4>
+        <svg class="header-logo-icon" width="16" height="0">
+          <use href="../sprite.svg#icon-minus"></use>
+        </svg>
+        <p>
+          Gender: man Size: 46x54.5mm Case Colour: Steel Band Material:Metal
+          Case Material: Metal Features: Multifunction Water Resistant: 5 (ATM)
+          Band Colour: Steel
+        </p>
+      </div>
     </div>
   </div>
 </section>
