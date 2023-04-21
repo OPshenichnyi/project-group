@@ -1,0 +1,46 @@
+
+ @import url('./variables.css');
+
+/* =====================COMMON=============== */
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 335px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+
+@media screen and (min-width:768px) {
+    .container {
+        max-width: 768px;
+    }
+
+}
+
+@media screen and (min-width:1280px) {
+    .container {
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+
+}
+/* ===========MOBILE================== */
+footer {
+    background-color: #1E2827;
+    color: #FFFFFF;
+   
+}
+
