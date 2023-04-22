@@ -15,18 +15,43 @@
 @import url('./footer.css');
 @import url('./buy_now.css');
 @import url('./burger_menu.css');
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
+
+@font-face {
+  font-family: 'Epilogue-Light';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('/src/fonts/Epilogue-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Epilogue-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('/src/fonts/Epilogue-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Epilogue-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('/src/fonts/Epilogue-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'NeueMontreal';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('/src/fonts/NeueMontreal-Regular.otf');
+}
+
+body{
+  font-family: Epilogue-Regular, sans-serif;
+  font-size: 14px;
   line-height: 24px;
   font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  color: #141414;
 }
