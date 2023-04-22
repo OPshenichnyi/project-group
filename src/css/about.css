@@ -32,9 +32,19 @@ body {
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
-    line-height: 18px;
+    line-height: 1.28;
     letter-spacing: -0.02em;
     color: #141414;
+}
+
+.about-text-two {
+    font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 1.28;
+        letter-spacing: -0.02em;
+        color: #141414;
 }
 
 
