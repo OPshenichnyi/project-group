@@ -28,12 +28,13 @@
     }
 
     .new-desc {
-        font-weight: 600;
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 600; 
         font-size: 32px;
         line-height: 1.25;
         letter-spacing: -0.02em;
         color: #141414;
-
 
 
 
@@ -88,8 +89,9 @@
     }
 
     .new-desc {
-
-        font-weight: 600;
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 600; 
         font-size: 40px;
         line-height: 1.1;
 
@@ -102,7 +104,7 @@
 
 
         width: 448px;
-        text-align: justify;
+       
 
 
 
@@ -125,7 +127,7 @@
 
 @media screen and (min-width: 1280px) {
 
-    .new-cont {
+    .new-cont { 
         max-width: 1440px;
         padding-left: 132px;
         padding-right: 132px;
@@ -152,8 +154,11 @@
 
     }
 
-    .new-desc {
-        font-weight: 600;
+    .new-desc {  
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 600;        
+       
         font-size: 40px;
         line-height: 1.25;
 
@@ -162,8 +167,7 @@
 
         color: #1E2827;
 
-        text-align: justify;
-        
+       
         width: 448px;
        
         
@@ -185,3 +189,4 @@
 
 
 }
+
