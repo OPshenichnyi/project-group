@@ -1,1 +1,185 @@
+.header {
+    position: absolute;
+    width: 100%;
+}
 
+.container {
+    max-width: 335px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #141414;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 29px;
+    padding-bottom: 69px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.link-logo {
+    display: flex;
+}
+
+
+
+
+.mob-logo-icon {
+
+    fill: var(--hero-text-color);
+}
+
+.logo-text {
+    margin-left: 4px;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: -0.03em;
+    color: var(--hero-text-color);
+}
+
+.navigation-list {
+    margin-left: 80px;
+}
+
+.navigation {
+    color: var(--hero-text-color);
+    font-family: 'Epilogue';
+    font-size: 9px;
+    line-height: 1.33;
+    text-transform: uppercase;
+}
+
+/**---------------------------style--------------------------- */
+
+
+.link-style:hover {}
+
+.navigation:hover,
+.navigation:focus {
+    text-shadow: 0 0 5px white, 0 0 10px #00FFFF, 0 0 15px #7FFF00, 0 0 20px white;
+    color: #03110f;
+
+}
+
+
+
+
+
+
+/* *--------------------------------------------------------- */
+
+
+
+.open-btn-menu {
+    display: flex;
+    background-color: transparent;
+    border: none;
+}
+
+.icon-open-menu {
+    fill: #ffffff;
+}
+
+/**------------------MEDIA--------------------**/
+
+
+@media screen and (min-width: 375px) {
+    .container {
+        max-width: 335px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    .address-list {
+        display: none;
+    }
+
+    .navigation-list {
+        display: none;
+    }
+
+
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+
+    .container {
+        max-width: 704px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .header-container {
+        padding-top: 20px;
+        padding-bottom: 80px;
+    }
+
+    .open-btn-menu {
+        display: none;
+    }
+
+    .navigation-list {
+        display: flex;
+        gap: 40px;
+        margin-left: 76px;
+    }
+
+    .address-list {
+        display: flex;
+    }
+
+    .logo-text {
+        margin-left: 4px;
+        font-family: 'Epilogue';
+        font-size: 15px;
+        line-height: 1;
+        letter-spacing: -0.03em;
+        color: var(--hero-text-color);
+    }
+
+    .contacts {
+        width: 159px;
+        height: 48px;
+        padding: 18px 35px;
+        background: var(--hero-watches-bgc);
+        border-radius: 8px;
+        color: var(--hero-text-color);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 1.33;
+        text-align: center;
+        text-transform: uppercase;
+
+    }
+
+
+}
+
+
+
+@media screen and (min-width: 1280px) {
+
+
+    .container {
+        max-width: 1176px;
+    }
+}
