@@ -33,7 +33,7 @@
     }
 
     .new-desc {
-        font-family: 'Epilogue';
+        font-family: 'Epilogue-SemiBold';
         font-style: normal;
         font-weight: 600; 
         font-size: 32px;
@@ -94,7 +94,7 @@
     }
 
     .new-desc {
-        font-family: 'Epilogue';
+        font-family: 'Epilogue-SemiBold';
         font-style: normal;
         font-weight: 600; 
         font-size: 40px;
@@ -160,7 +160,7 @@
     }
 
     .new-desc {  
-        font-family: 'Epilogue';
+        font-family: 'Epilogue-SemiBold';
         font-style: normal;
         font-weight: 600;        
        
