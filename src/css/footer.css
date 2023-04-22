@@ -65,7 +65,7 @@ footer {
 }
 .address-list .item{
     max-width: 141px;
-    font-family: 'Epilogue';
+    font-family: 'Epilogue-Regular';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -86,7 +86,7 @@ footer {
     right: 20px;
 }
 .footer-nav-item {
-    font-family: 'Epilogue';
+    font-family: 'Epilogue-Regular';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -128,7 +128,7 @@ footer {
  }
       
     .footer-terms-text{
-        font-family: 'Epilogue';
+        font-family: 'Epilogue-Regular';
             font-style: normal;
             font-weight: 400;
             font-size: 12px;
