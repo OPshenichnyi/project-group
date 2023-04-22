@@ -1,0 +1,126 @@
+.container {
+  max-width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.hero {
+  padding: 40px 0;
+  background-color: var(--hero-bgc);
+}
+.hero-title {
+  margin-bottom: 60px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.05;
+  color: var(--hero-text-color);
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+    padding: 0 20px;
+  }
+  .hero {
+    padding: 40px 0;
+    background-color: var(--hero-bgc);
+  }
+  .hero-title {
+    font-size: 38px;
+  }
+
+  .swiper {
+    max-width: 266px;
+    margin-left: 0;
+    margin-bottom: 40px;
+    overflow-y: unset;
+  }
+  .swiper-wrapper {
+    margin-bottom: 20px;
+  }
+
+  .slider-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .slider-navigation-buttons {
+    display: flex;
+    column-gap: 12px;
+  }
+  .hero-swiper-button-prev,
+  .hero-swiper-button-next {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+  }
+  .hero-swiper-button-prev:hover,
+  .hero-swiper-button-next:hover {
+    border-color: var(--hero-text-color);
+  }
+  .hero-button-prev-icon,
+  .hero-button-next-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+  }
+  .hero-button-prev-icon:hover,
+  .hero-button-next-icon:hover {
+    fill: var(--hero-text-color);
+  }
+
+  .hero-description {
+    max-width: 248px;
+    margin-left: auto;
+    margin-bottom: 40px;
+  }
+  .hero-description-text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: var(--hero-text-color);
+  }
+  .hero-img {
+    width: 335px;
+    height: 410px;
+  }
+  .swiper-pagination-custom {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: flex-end;
+    width: auto;
+    color: var(--hero-text-color);
+  }
+
+  .swiper-pagination-custom:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 0;
+    width: 32px;
+    border: 1px solid #ffffff;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 100%;
+  }
+}
