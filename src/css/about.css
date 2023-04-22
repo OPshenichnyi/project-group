@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.about-container {
+    max-width: 375px;
+    
+}
+.about {
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    
+}
+.about-title {
+    margin-bottom: 40px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #1E2827;
+}
+.about-text {
+    margin-bottom: 20px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #141414;
+}
+
+
+@media screen and (min-width: 0px) {
+    .about {
+        max-width: 375px;
+    }
+        .about-image {
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+}
