@@ -1,4 +1,4 @@
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 767px) {
   .burger-mobile-menu {
     color: var(--hero-text-color);
     padding: 29px 20px 0 20px;
@@ -22,7 +22,8 @@
     visibility: hidden;
     pointer-events: none;
   }
-
+  .burger-mobile-menu_coteiner {
+  }
   .burger-mobile-menu-top {
     display: flex;
     margin-bottom: 200px;
