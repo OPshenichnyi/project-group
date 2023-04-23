@@ -15,18 +15,35 @@
 @import url('./footer.css');
 @import url('./buy_now.css');
 @import url('./burger_menu.css');
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
+
+@font-face {
+  font-family: 'Epilogue';
+  src: url('/src/fonts/Epilogue-Regular.woff2') format('woff2'),
+    url('/src/fonts/Epilogue-Regular.woff2') format('woff'),
+    url('/src/fonts/Epilogue-Regular.ttf') format('truetype');
   font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+@font-face {
+  font-family: 'NeueMontreal';
+  src: local('/src/fonts/NeueMontreal-Regular.otf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+body {
+  font-family: 'Epilogue';
+  font-size: 14px;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Epilogue';
+  src: url('/src/fonts/Epilogue-Regular.woff2') format('woff2'),
+    url('/src/fonts/Epilogue-Regular.woff2') format('woff'),
+    url('/src/fonts/Epilogue-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
 }
