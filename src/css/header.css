@@ -17,7 +17,7 @@
     margin-left: auto;
     margin-right: auto;
     padding-top: 29px;
-    padding-bottom: 69px;
+
 }
 
 .nav-list {
@@ -34,11 +34,10 @@
     height: 14px;
 }
 
-
 .logo-text {
     margin-left: 4px;
     font-size: 12px;
-    line-height: 12px;
+    line-height: 1;
     letter-spacing: -0.03em;
     color: var(--hero-text-color);
 }
@@ -49,7 +48,6 @@
 
 .navigation {
     color: var(--hero-text-color);
-    font-family: 'Epilogue';
     font-size: 9px;
     line-height: 1.33;
     text-transform: uppercase;
@@ -123,8 +121,7 @@
     }
 
     .header-container {
-        padding-top: 20px;
-        padding-bottom: 80px;
+        padding-top: 38px;
     }
 
     .img-logo {
@@ -137,45 +134,29 @@
     }
 
 
-
     .navigation-list {
         display: flex;
         gap: 40px;
         margin-left: 76px;
     }
 
-    .navigation {
-        display: block;
-    }
-
-    .address-list {
-        display: flex;
-    }
 
     .logo-text {
-        margin-left: 4px;
-        font-family: 'Epilogue';
         font-size: 15px;
-        line-height: 1;
-        letter-spacing: -0.03em;
-        color: var(--hero-text-color);
         display: flex;
         align-items: center;
     }
 
     .contacts {
-        width: 159px;
-        height: 48px;
+        min-width: 159px;
         padding: 18px 35px;
         background: var(--hero-watches-bgc);
         border-radius: 8px;
         color: var(--hero-text-color);
-        font-style: normal;
-        font-weight: 400;
         font-size: 9px;
+        font-style: normal;
         line-height: 1.33;
         text-align: center;
-        text-transform: uppercase;
 
     }
 
