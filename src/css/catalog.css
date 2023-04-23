@@ -133,7 +133,7 @@
 
 /* mobile */
 @media screen and (min-width: 320px) {
-  .container {
+  .catalog-container {
     max-width: 375px;
   }
 }
