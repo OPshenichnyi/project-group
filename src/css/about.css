@@ -16,9 +16,15 @@ body {
     padding-bottom: 40px;
     
 }
+.about-image-two {
+    display: none;
+}
+.about-image-three {
+    display: none;
+}
 .about-title {
     margin-bottom: 40px;
-    font-family: 'Epilogue';
+    font-family: 'Epilogue', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
@@ -28,13 +34,22 @@ body {
 }
 .about-text {
     margin-bottom: 20px;
-    font-family: 'Epilogue';
+    font-family: 'Epilogue', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
-    line-height: 18px;
+    line-height: 1.28;
     letter-spacing: -0.02em;
     color: #141414;
+}
+.about-text-two {
+    font-family: 'Epilogue', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 1.28;
+        letter-spacing: -0.02em;
+        color: #141414;
 }
 
 
@@ -46,4 +61,46 @@ body {
             margin: 0 auto;
             margin-top: 40px;
         }
+}
+
+@media screen and (min-width: 768px) {
+    .about{
+        max-width: 768px;
+    }
+    .about-container {
+        max-width: 768px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+        .about {
+            margin: auto;
+            padding-top: 64px;
+            padding-bottom: 128px;
+    
+        }
+
+
+    .about-block {
+        display: flex;
+    }
+    .about-title {
+        margin-bottom: 0;
+        margin-right: 40px;
+        white-space: nowrap;
+    }
+    .about-text {
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+    .about-image {
+        display: none;
+    }
+    .about-image-two {
+        display: block;
+        margin-top: 40px;
+    }
 }
