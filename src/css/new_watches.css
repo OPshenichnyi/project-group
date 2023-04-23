@@ -15,7 +15,7 @@
     }
     
     .new-h1 {
-    
+        font-family: 'Epilogue-Light';
         font-weight: 300;
     
         font-size: 12px;
@@ -76,7 +76,7 @@
     }
     
     .new-h1 {
-    
+        font-family: 'Epilogue-Light';
         font-weight: 300;
         font-size: 12px;
         line-height: 1.16;
@@ -90,7 +90,7 @@
     }
     
     .new-desc {
-        font-family: 'Epilogue-SemiBold';
+      font-family: 'Epilogue-SemiBold';
         font-style: normal;
         font-weight: 600; 
         font-size: 40px;
@@ -141,7 +141,7 @@
         margin-bottom: 80px;
     }
     
-    .new-h1 {
+    .new-h1 {font-family: 'Epilogue-Light';
         font-weight: 300;
         font-size: 12px;
         line-height: 1.16;
