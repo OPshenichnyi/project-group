@@ -1,4 +1,4 @@
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 360px) {
   .burger-mobile-menu {
     color: var(--hero-text-color);
     padding: 29px 20px 0 20px;
@@ -10,25 +10,19 @@
     left: 0;
     background-color: var(--hero-watches-bgc);
 
+    transform: translatex(0);
+
+    transition: opacity 250ms linear, visibility 250ms linear,
+      transform 250ms linear;
+  }
+  .burger-mobile-menu.is-hidden {
     transform: translatex(-100%);
 
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+  }
 
-    transition: opacity 250ms linear, visibility 250ms linear,
-      transform 250ms linear;
-  }
-  .burger-mobile-menu.is-open {
-    transform: translatex(0);
-
-    opacity: 1;
-    visibility: visible;
-    pointer-events: initial;
-  }
-  .burger-mobile-menu_coteiner {
-    /* padding: 29px 20px 0 20px; */
-  }
   .burger-mobile-menu-top {
     display: flex;
     margin-bottom: 200px;
