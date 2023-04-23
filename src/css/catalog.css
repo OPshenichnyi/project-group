@@ -1,0 +1,209 @@
+.catalog-container {
+  max-width: 365px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.catalog-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  width: 335px;
+  margin-bottom: 40px;
+}
+.catalog-list-item {
+  width: 335px;
+  height: 410px;
+}
+.catalog-list .catalog-list-item:nth-last-child(-n + 4) {
+  display: none;
+}
+.catalog-title {
+  font-family: Epilogue-Regular, sans-serif;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #1e2827;
+  margin-bottom: 40px;
+}
+.catalog-item-image {
+  margin: 0 auto;
+  padding: 43px 30px;
+}
+.catalog-item-title {
+  font-family: Epilogue-Regular, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #141414;
+  max-width: 276px;
+}
+.cut-text {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 270px;
+  white-space: nowrap;
+}
+.catalog-item-price {
+  font-family: Epilogue-Regular, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.5);
+}
+.catalog-button {
+  font-family: Epilogue-Regular, sans-serif;
+  display: block;
+  width: 108px;
+  height: 42px;
+  background: #1e2827;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-left: auto;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.catalog-button:is(:hover, :focus) {
+  background: var(--hover-button-bgc);
+}
+.catalog-cover-title {
+  font-family: Epilogue-Regular, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.catalog-cover-text {
+  font-family: Epilogue-Regular, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.01em;
+  color: rgba(255, 255, 255, 0.5);
+}
+.catalog-cover-text:not(:last-child) {
+  margin-bottom: 20px;
+}
+/* flipcard */
+.catalog-list-item .flip-card {
+  height: 360px;
+  perspective: 1000px;
+  margin: 0 auto 14px;
+}
+.catalog-list-item .flip-card .flip-card-inner {
+  position: relative;
+  width: 335px;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  backface-visibility: hidden;
+}
+.flip-card-front {
+  width: 100%;
+  height: 100%;
+}
+.flip-card-back {
+  background-color: #1e2827;
+  border-radius: 8px;
+  transform: rotateY(180deg);
+  height: 360px;
+}
+.flip-back-wrap {
+  padding: 40px 60px 40px 40px;
+}
+
+/* mobile */
+@media screen and (min-width: 320px) {
+  .container {
+    max-width: 375px;
+  }
+}
+/* tablet */
+@media screen and (min-width: 768px) {
+  .catalog-container {
+    max-width: 734px;
+  }
+
+  .catalog-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: inherit;
+    gap: 40px 32px;
+    width: 100%;
+  }
+  .catalog-list-item {
+    width: calc((100% - 32px) / 2);
+  }
+  .catalog-button {
+    width: 122px;
+    height: 50px;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1280px) {
+  .catalog-container {
+    max-width: 1206px;
+  }
+  .catalog-wrap {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .catalog-list {
+    margin-bottom: 80px;
+    gap: 64px 24px;
+  }
+  .catalog-list .catalog-list-item:nth-last-child(-n + 4) {
+    display: block;
+  }
+  .catalog-list-item {
+    width: calc((100% - 72px) / 4);
+    height: 375px;
+  }
+  .flip-card .flip-card-inner {
+    width: 276px;
+    height: 325px;
+  }
+  .catalog-list-item .flip-card .flip-card-inner {
+    width: 276px;
+  }
+
+  .catalog-list-item .flip-card {
+    width: 276px;
+  }
+  .flip-back-wrap {
+    padding: 20px 20px;
+  }
+  .catalog-list-item .flip-card {
+    margin: 0 auto 14px;
+  }
+  .flip-card-front .catalog-item-image {
+    margin: 0 auto;
+    padding: 25px 0 25px 0;
+  }
+  .flip-card-back {
+    height: 325px;
+  }
+  .catalog-list-item .flip-card {
+    height: 325px;
+  }
+}
