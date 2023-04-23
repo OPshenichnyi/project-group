@@ -38,3 +38,12 @@ body {
   font-size: 14px;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Epilogue';
+  src: url('/src/fonts/Epilogue-Regular.woff2') format('woff2'),
+    url('/src/fonts/Epilogue-Regular.woff2') format('woff'),
+    url('/src/fonts/Epilogue-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
