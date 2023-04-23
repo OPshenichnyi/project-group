@@ -1,5 +1,12 @@
 @media screen and (max-width: 767px) {
+  .coteiner {
+    max-width: 375px;
+  }
   .burger-mobile-menu {
+    display: flex;
+
+    justify-content: center;
+
     color: var(--hero-text-color);
     padding: 29px 20px 0 20px;
     position: fixed;
@@ -22,10 +29,11 @@
     visibility: hidden;
     pointer-events: none;
   }
-  .burger-mobile-menu_coteiner {
-  }
+
   .burger-mobile-menu-top {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-bottom: 200px;
   }
   .burger-mobile-menu_close-btn {
