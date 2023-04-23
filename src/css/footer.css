@@ -6,9 +6,9 @@
 .container {
     margin: 0 auto;
     width: 100%;
-    max-width: 375px;
-    padding-left: 20px;
-    padding-right: 20px;
+    max-width: 365px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
     
@@ -16,17 +16,15 @@
 
 @media screen and (min-width:768px) {
     .container {
-        max-width: 768px;
-        padding-left: 32px;
-        padding-right: 32px;
+        max-width: 734px;
+      
     }
 }
 
 @media screen and (min-width:1280px) {
     .container {
-    max-width: 1280px; 
-    padding-left: 52px; 
-    padding-right: 52px;     
+    max-width: 1206px; 
+    
     }
 
 }
@@ -65,7 +63,7 @@ footer {
 }
 .address-list .item{
     max-width: 141px;
-    font-family: 'Epilogue-Regular';
+    font-family: 'Epilogue';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -86,7 +84,7 @@ footer {
     right: 20px;
 }
 .footer-nav-item {
-    font-family: 'Epilogue-Regular';
+    font-family: 'Epilogue';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -128,7 +126,7 @@ footer {
  }
       
     .footer-terms-text{
-        font-family: 'Epilogue-Regular';
+        font-family: 'Epilogue';
             font-style: normal;
             font-weight: 400;
             font-size: 12px;
