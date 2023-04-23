@@ -17,41 +17,24 @@
 @import url('./burger_menu.css');
 
 @font-face {
-  font-family: 'Epilogue-Light';
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-  src: local('/src/fonts/Epilogue-Light.ttf');
-}
-
-@font-face {
-  font-family: 'Epilogue-Regular';
-  font-style: normal;
+  font-family: 'Epilogue';
+  src: url('/src/fonts/Epilogue-Regular.woff2') format('woff2'),
+    url('/src/fonts/Epilogue-Regular.woff2') format('woff'),
+    url('/src/fonts/Epilogue-Regular.ttf') format('truetype');
   font-weight: 400;
   font-display: swap;
-  src: local('/src/fonts/Epilogue-Regular.ttf');
-}
-
-@font-face {
-  font-family: 'Epilogue-SemiBold';
   font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: local('/src/fonts/Epilogue-SemiBold.ttf');
 }
 
 @font-face {
   font-family: 'NeueMontreal';
+  src: local('/src/fonts/NeueMontreal-Regular.otf') format('woff');
+  font-weight: normal;
   font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('/src/fonts/NeueMontreal-Regular.otf');
 }
 
-body{
-  font-family: Epilogue-Regular, sans-serif;
+body {
+  font-family: 'Epilogue';
   font-size: 14px;
-  line-height: 24px;
-  font-weight: 400;
-  color: #141414;
+  font-style: normal;
 }
