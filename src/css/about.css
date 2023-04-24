@@ -12,8 +12,8 @@ body {
 }
 .about {
     margin: auto;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 80px;
     
 }
 .about-image-two {
@@ -57,7 +57,7 @@ body {
     .about {
         max-width: 375px;
     }
-        .about-image {
+        .image-about {
             margin: 0 auto;
             margin-top: 40px;
         }
@@ -68,14 +68,11 @@ body {
         max-width: 768px;
     }
     .about-container {
-        max-width: 768px;
+        max-width: 734px;
         margin: 0 auto;
-        width: 100%;
+        width: 100%;  
     }
-    .container {
-        padding-left: 32px;
-        padding-right: 32px;
-    }
+   
         .about {
             margin: auto;
             padding-top: 64px;
@@ -96,11 +93,57 @@ body {
         margin-right: 20px;
         margin-bottom: 0;
     }
-    .about-image {
-        display: none;
-    }
-    .about-image-two {
-        display: block;
+        .text-class {
+            display: flex;
+        }
+   
+    .image-about {
         margin-top: 40px;
     }
+}
+@media screen and (min-width: 1280px) {
+    .about {
+        max-width: 1280px;
+    }
+
+    .about-container {
+        max-width: 1206px;
+        margin: 0 auto;
+        width: 100%;
+        
+    }
+
+    .container {
+        padding-left: 132px;
+        padding-right: 132px;
+    }
+
+    .about {
+        margin: auto;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .about-title {
+        margin-right: 110px;
+    }
+
+    .about-text {
+        margin-right: 40px;
+    }
+
+    .about-text-two {
+        padding-right: 33px;
+    }
+
+    .image-about {
+        padding: 0;
+        margin-left: 245px;
+        
+    }
+    .text-class {
+        display: flex;
+        max-width: 892px;
+    }
+
 }
