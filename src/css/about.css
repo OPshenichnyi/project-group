@@ -60,8 +60,6 @@ body {
         .image-about {
             margin: 0 auto;
             margin-top: 40px;
-            padding-left: 20px;
-            padding-right: 20px;
         }
 }
 
@@ -140,7 +138,7 @@ body {
 
     .image-about {
         padding: 0;
-        margin-left: 295px;
+        margin-left: 245px;
         
     }
     .text-class {
