@@ -275,7 +275,7 @@ flex-wrap: wrap;
 }
 
 
-@media screen and (min-width: 428px) {
+@media screen and (min-width: 375px) {
     .modal {
         max-width: 295px;
         padding: 20px;
