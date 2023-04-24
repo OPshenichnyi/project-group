@@ -1,192 +1,189 @@
-
 @media screen and (max-width:767px) {
 
     .new-cont {
-        max-width: 375px;
-        padding-left: 20px;
-        padding-right: 20px;
+        max-width: 365px;
+        padding-left: 15px;
+        padding-right: 15px;
         margin-left: auto;
         margin-right: auto;
         padding-bottom: 80px;
     }
-    
+
     .new-block-1 {
         margin-bottom: 40px;
     }
-    
+
     .new-h1 {
-        font-family: 'Epilogue-Light';
+        font-family: 'Epilogue';
         font-weight: 300;
-    
         font-size: 12px;
         line-height: 1.16;
-    
+
         letter-spacing: 0.06em;
-    
+
         color: rgba(20, 20, 20, 0.4);
         margin-bottom: 8px;
-    
+
     }
-    
+
     .new-desc {
-        font-family:'Epilogue';
+
+        font-family: 'Epilogue';
         font-style: normal;
-        font-weight: 600; 
+        font-weight: 600;
         font-size: 32px;
         line-height: 1.25;
         letter-spacing: -0.02em;
         color: #141414;
-    
-    
-    
+
+
+
     }
-    
+
     .new-block-2 {
         display: flex;
         flex-wrap: wrap;
-    
-    
+
+
     }
-    
+
     .new-list-item {}
-    
+
     .new-item:not(:last-child) {
         margin-bottom: 20px;
     }
-    
+
     .new-img {}
-    }
-    
-    @media screen and (min-width:768px) and (max-width:1279px) {
-    
+}
+
+@media screen and (min-width:768px) and (max-width:1279px) {
+
     .new-cont {
-        max-width: 768px;
-        padding-left: 32px;
-        padding-right: 32px;
+        max-width: 734px;
+        padding-left: 15px;
+        padding-right: 15px;
         margin-left: auto;
         margin-right: auto;
         padding-bottom: 128px;
-    
+
     }
-    
-    
-    
+
+
+
     .new-block-1 {
         margin-bottom: 40px;
     }
-    
+
     .new-h1 {
-        font-family: 'Epilogue-Light';
+        font-family: 'Epilogue';
         font-weight: 300;
         font-size: 12px;
         line-height: 1.16;
-    
-    
+
+
         letter-spacing: 0.06em;
-    
+
         color: rgba(20, 20, 20, 0.4);
         margin-bottom: 8px;
-    
+
     }
-    
+
     .new-desc {
-      font-family: 'Epilogue';
+        font-family: 'Epilogue';
         font-style: normal;
-        font-weight: 600; 
+        font-weight: 600;
         font-size: 40px;
         line-height: 1.1;
-    
-    
+
+
         letter-spacing: -0.02em;
-    
-    
-    
+
+
+
         color: #1E2827;
-    
-    
+
+
         width: 448px;
-       
-    
-    
-    
+
     }
-    
-    
+
+
     .new-block-2 {}
-    
+
     .new-list-item {
         display: flex;
     }
-    
+
     .new-item:not(:last-child) {
         margin-right: 20px;
     }
-    
+
     .new-img {}
-    }
-    
-    
-    @media screen and (min-width: 1280px) {
-    
-    .new-cont { 
-        max-width: 1280px;
-        padding-left: 132px;
-        padding-right: 132px;
+}
+
+
+@media screen and (min-width: 1280px) {
+
+    .new-cont {
+        max-width: 1206px;
+        padding-left: 15px;
+        padding-right: 15px;
         margin-left: auto;
         margin-right: auto;
         padding-bottom: 160px;
     }
-    
+
     .new-block-1 {
         margin-bottom: 80px;
     }
-    
-    .new-h1 {font-family: 'Epilogue-Light';
+
+    .new-h1 {
+        font-family: 'Epilogue';
         font-weight: 300;
         font-size: 12px;
         line-height: 1.16;
-    
-    
-    
+
+
+
         letter-spacing: 0.06em;
-    
+
         color: rgba(20, 20, 20, 0.4);
         margin-bottom: 8px;
-    
+
     }
-    
-    .new-desc {  
-        font-family: 'Epilogue-SemiBold';
+
+    .new-desc {
+        font-family: 'Epilogue';
         font-style: normal;
-        font-weight: 600;        
-       
+        font-weight: 600;
+
         font-size: 40px;
         line-height: 1.25;
-    
-    
+
+
         letter-spacing: -0.02em;
-    
+
         color: #1E2827;
-    
-       
+
+
         width: 448px;
-       
-        
-         
-    
+
+
+
+
     }
-    
+
     .new-block-2 {}
-    
+
     .new-list-item {
         display: flex;
     }
-    
+
     .new-item:not(:last-child) {
         margin-right: 24px;
     }
-    
+
     .new-img {}
-    
-    
-    }
+
+
+}
