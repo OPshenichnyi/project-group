@@ -21,7 +21,7 @@
   display: none;
 }
 .catalog-title {
-  font-family: Epilogue-Regular, sans-serif;
+  font-family: Epilogue, sans-serif;
   font-size: 32px;
   line-height: 1.25;
   letter-spacing: -0.02em;
@@ -33,7 +33,7 @@
   padding: 43px 30px; */
 }
 .catalog-item-title {
-  font-family: Epilogue-Regular, sans-serif;
+  font-family: Epilogue, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
@@ -48,7 +48,7 @@
   white-space: nowrap;
 }
 .catalog-item-price {
-  font-family: Epilogue-Regular, sans-serif;
+  font-family: Epilogue, sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -56,7 +56,7 @@
   color: rgba(20, 20, 20, 0.5);
 }
 .catalog-button {
-  font-family: Epilogue-Regular, sans-serif;
+  font-family: Epilogue, sans-serif;
   display: block;
   width: 108px;
   height: 42px;
@@ -76,7 +76,7 @@
   background: var(--hover-button-bgc);
 }
 .catalog-cover-title {
-  font-family: Epilogue-Regular, sans-serif;
+  font-family: Epilogue, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
@@ -86,7 +86,7 @@
   margin-bottom: 10px;
 }
 .catalog-cover-text {
-  font-family: Epilogue-Regular, sans-serif;
+  font-family: Epilogue, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
