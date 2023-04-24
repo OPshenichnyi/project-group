@@ -29,7 +29,7 @@
     }
     
     .new-desc {
-        font-family: 'Epilogue-SemiBold';
+        font-family:'Epilogue';
         font-style: normal;
         font-weight: 600; 
         font-size: 32px;
@@ -90,7 +90,7 @@
     }
     
     .new-desc {
-      font-family: 'Epilogue-SemiBold';
+      font-family: 'Epilogue';
         font-style: normal;
         font-weight: 600; 
         font-size: 40px;
@@ -129,7 +129,7 @@
     @media screen and (min-width: 1280px) {
     
     .new-cont { 
-        max-width: 1440px;
+        max-width: 1280px;
         padding-left: 132px;
         padding-right: 132px;
         margin-left: auto;
