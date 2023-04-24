@@ -32,6 +32,7 @@ img {
 }
 
 .sale-title {
+  margin-bottom: 40px;
   font-size: 32px;
   line-height: 1.25;
   letter-spacing: -0.02em;
@@ -202,6 +203,9 @@ img {
     width: 406px;
     height: 614px;
   }
+  .sale {
+    padding-bottom: 128px;
+  }
 
   .sale-gallery-item {
     width: 146px;
@@ -283,7 +287,7 @@ img {
   max-width: 100%;
 }
 
-@media screen and (max-width: 374px) {
+@media screen and (max-width: 364px) {
   .container {
     max-width: 100%;
   }
@@ -291,21 +295,21 @@ img {
 
 @media screen and (min-width: 375px) {
   .container {
-    margin: 0 auto;
-    max-width: 375px;
+    margin: 0 15px;
+    max-width: 365px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    padding: 0 32px;
-    max-width: 768px;
+    padding: 0 15px;
+    max-width: 734px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .container {
-    padding: 0 52px;
-    max-width: 1280px;
+    padding: 0 15px;
+    max-width: 1206px;
   }
 }
