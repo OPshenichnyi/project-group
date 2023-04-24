@@ -40,6 +40,7 @@
   letter-spacing: -0.02em;
   color: #141414;
   max-width: 276px;
+  margin-bottom: 4px;
 }
 .cut-text {
   text-overflow: ellipsis;
