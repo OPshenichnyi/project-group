@@ -1,33 +1,7 @@
 
 @import url('./variables.css');
 
-/* =====================COMMON=============== */
 
-.container {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 365px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-
-@media screen and (min-width:768px) {
-    .container {
-        max-width: 734px;
-      
-    }
-}
-
-@media screen and (min-width:1280px) {
-    .container {
-    max-width: 1206px; 
-    
-    }
-
-}
 /* ===========MOBILE================== */
 
 @media screen and (min-width:375px),
@@ -63,10 +37,7 @@ footer {
 }
 .address-list .item{
     max-width: 141px;
-    font-family: 'Epilogue';
-    font-style: normal;
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.02em;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -84,10 +55,7 @@ footer {
     right: 20px;
 }
 .footer-nav-item {
-    font-family: 'Epilogue';
-    font-style: normal;
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.02em;
     text-transform: uppercase;
@@ -126,21 +94,23 @@ footer {
  }
       
     .footer-terms-text{
-        font-family: 'Epilogue';
-            font-style: normal;
+       
             font-weight: 400;
             font-size: 12px;
             line-height: 1.17;
             letter-spacing: -0.02em;
             color: #C6CDD1;
-            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            
     }
     .footer-terms-list{
         display: flex;
         gap: 14px;
         margin-top: 14px;
     }
-        .footer-terms-text:is(:hover, :focus) {
+    .footer-terms-link{
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+        .footer-terms-link:is(:hover, :focus) {
         color: var(--link-active-color);
         }
 }
