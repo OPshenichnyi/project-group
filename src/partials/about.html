@@ -7,9 +7,31 @@
     <p class="about-text-two">At our premium watch collection, we believe that a watch is more than just a timekeeping device – it's a statement piece
     that reflects your personality and style. So why settle for anything less than the best? Browse our collection today and
     discover the perfect watch for you.</p>
-    <img class="about-image" src="./img/mobile/1x/mob-gif-img.jpg" alt="watch collection" width="335" height="365"
-    srcset="./img/mobile/1x/mob-gif-img.jpg 1x, ./img/mobile/2x/mob-gif-img2x.jpg 2x"
-    >
     </div>
+    </div>
+
+    <picture >
+        <source 
+        srcset="./img/desctop/1x/desc-gif-img.jpg 1x,
+        ./img/desctop/2x/desc-gif-img-2x.jpg      2x
+        "
+        media="(min-width: 1280px)"
+        />
+        <source
+        srcset="./img/tab/1x/tab-gif-img.jpg 1x,
+        ./img/tab/2x/tab-gif-img-2x.jpg 2x
+        "
+        media="(min-width: 768px)"
+        />
+        <source 
+        srcset="./img/mobile/1x/mob-gif-img.jpg 1x,
+        ./img/mobile/2x/mob-gif-img2x.jpg       2x
+        "
+        media="(min-width: 0px)"
+        />
+        <img class="image-about"
+        src="./img/desctop/1x/desc-gif-img.jpg"
+        alt="watch collection" />
+    </picture>
     
 </section>

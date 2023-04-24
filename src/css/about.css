@@ -12,10 +12,10 @@ body {
 }
 .about {
     margin: auto;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    
     
 }
+
 .about-title {
     margin-bottom: 40px;
     font-family: 'Epilogue';
@@ -36,14 +36,104 @@ body {
     letter-spacing: -0.02em;
     color: #141414;
 }
+.about-text-two {
+    font-family: 'Epilogue', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 1.28;
+        letter-spacing: -0.02em;
+        color: #141414;
+}
 
 
 @media screen and (min-width: 0px) {
     .about {
         max-width: 375px;
+        padding-top: 40px;
+        padding-bottom: 80px;
     }
-        .about-image {
+        .image-about {
             margin: 0 auto;
             margin-top: 40px;
+            padding-left: 20px;
+            padding-right: 20px;
         }
+}
+
+@media screen and (min-width: 768px) {
+    .about{
+        max-width: 768px;
+    }
+    .about-container {
+        max-width: 768px;
+        margin: 0 auto;
+        width: 100%;
+        margin-bottom: 40px;
+        display: flex;
+    }
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+        .about {
+            margin: auto;
+            padding-top: 64px;
+            padding-bottom: 128px;
+    
+        }
+
+        .image-about {
+            padding-left: 32px;
+            padding-right: 32px;
+        }
+    .about-block {
+        display: flex;
+    }
+    .about-title {
+        margin-bottom: 0;
+        margin-right: 40px;
+        white-space: nowrap;
+    }
+    .about-text {
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+    
+}
+@media screen and (min-width: 1280px){
+    .about {
+            max-width: 1280px;
+        }
+    .about-container {
+            max-width: 1280px;
+            margin: 0 auto;
+            width: 100%;
+         }
+     .container {
+         padding-left: 132px;
+         padding-right: 132px;
+     }
+
+    .about {
+        margin: auto;
+        padding-top: 80px;
+        padding-bottom: 80px;   
+    }
+    .about-title {
+        margin-right: 110px;
+    }
+    .about-text {
+        margin-right: 40px;
+    }
+    .about-text-two {
+        margin-right: 33px;
+    }
+    .image-about {
+        padding: 0;
+        margin-left: 360px;
+        width: 790px;
+        height: 450px;
+    }
+    
 }
