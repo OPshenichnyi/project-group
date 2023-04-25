@@ -261,13 +261,6 @@ flex-wrap: wrap;
     border-radius: 8px;
 }
 
-
-
-.container {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
-}
 .modal-form {
     display: flex;
     justify-content: center;
@@ -281,9 +274,7 @@ flex-wrap: wrap;
         padding: 20px;
       
     }
-    .container{
-        max-width: 335px;
-    }
+    
     .modal-form {
         width: 100%;
        
@@ -299,9 +290,7 @@ flex-wrap: wrap;
         max-width: 684px;
 
     }
-    .container{
-        max-width: 766px;
-    }
+   
     .modal-form {
         width: 368px;
         margin-left: auto;
@@ -327,9 +316,7 @@ flex-wrap: wrap;
        
 
     }
-    .container{
-        max-width: 1158px;
-    }
+   
     .modal-form {
         width: 508px;
     }
