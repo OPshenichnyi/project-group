@@ -3,11 +3,7 @@
     width: 100%;
 }
 
-.container {
-    max-width: 335px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
+
 
 .header-container {
     display: flex;
@@ -47,10 +43,14 @@
 }
 
 .navigation {
+    display: block;
     color: var(--hero-text-color);
     font-size: 9px;
     line-height: 1.33;
     text-transform: uppercase;
+    padding: 15px 0;
+    transition: text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        transform 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /**---------------------------style--------------------------- */
@@ -61,8 +61,6 @@
 .navigation:hover,
 .navigation:focus {
     text-shadow: 0 0 5px white, 0 0 10px #00FFFF, 0 0 15px #7FFF00, 0 0 20px white;
-    color: #03110f;
-    transition: text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transform: scale(1.1);
 }
 
@@ -75,6 +73,7 @@
     display: flex;
     background-color: transparent;
     border: none;
+    padding: 0;
 }
 
 .icon-open-menu {
@@ -82,19 +81,6 @@
 }
 
 /**------------------MEDIA--------------------**/
-
-
-@media screen and (min-width: 375px) {
-    .container {
-        max-width: 335px;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-}
-
-
-
 
 
 @media screen and (max-width: 767px) {
@@ -114,14 +100,8 @@
 @media screen and (min-width: 768px) {
 
 
-    .container {
-        max-width: 734px;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
     .header-container {
-        padding-top: 38px;
+        padding-top: 20px;
     }
 
     .img-logo {
@@ -148,27 +128,26 @@
     }
 
     .contacts {
+        display: block;
         min-width: 159px;
         padding: 18px 35px;
-        background: var(--hero-watches-bgc);
+        background-color: var(--hero-watches-bgc);
         border-radius: 8px;
         color: var(--hero-text-color);
         font-size: 9px;
         font-style: normal;
         line-height: 1.33;
         text-align: center;
+        transition: text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            transform 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .contacts:hover,
+    .contacts:focus {
+        text-shadow: 0 0 5px white, 0 0 10px #00FFFF, 0 0 15px #7FFF00, 0 0 20px white;
+        transform: scale(1.05);
 
     }
 
 
-}
-
-
-
-@media screen and (min-width: 1280px) {
-
-
-    .container {
-        max-width: 1176px;
-    }
 }
