@@ -3,11 +3,11 @@ body {
 }
 
 .container {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .about-container {
-    max-width: 375px;
+    max-width: 365px;
     
 }
 .about {
@@ -24,8 +24,7 @@ body {
 }
 .about-title {
     margin-bottom: 40px;
-    font-family: 'Epilogue', sans-serif;
-    font-style: normal;
+   
     font-weight: 600;
     font-size: 32px;
     line-height: 1.25;
@@ -34,8 +33,7 @@ body {
 }
 .about-text {
     margin-bottom: 20px;
-    font-family: 'Epilogue', sans-serif;
-    font-style: normal;
+ 
     font-weight: 300;
     font-size: 14px;
     line-height: 1.28;
@@ -43,8 +41,7 @@ body {
     color: #141414;
 }
 .about-text-two {
-    font-family: 'Epilogue', sans-serif;
-        font-style: normal;
+    
         font-weight: 300;
         font-size: 14px;
         line-height: 1.28;
