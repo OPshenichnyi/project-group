@@ -34,6 +34,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 18px;
+    width: 100%;
  }
 
 .button-modal {
@@ -111,6 +112,9 @@
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 12px 16px;
   
+}
+.modal-input:not(:placeholder-shown):invalid {
+    border-color: red;
 }
 
 
