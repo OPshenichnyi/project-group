@@ -32,6 +32,7 @@ img {
 }
 
 .sale-title {
+  font-weight: 600;
   margin-bottom: 40px;
   font-size: 32px;
   line-height: 1.25;
@@ -196,15 +197,12 @@ img {
   letter-spacing: -0.01em;
   color: var(--description-color);
 }
-/***********************************media****************************************/
 
+/***********************************media****************************************/
 @media screen and (min-width: 768px) {
   .sale-item-big {
     width: 406px;
     height: 614px;
-  }
-  .sale {
-    padding-bottom: 128px;
   }
 
   .sale-gallery-item {
@@ -237,6 +235,9 @@ img {
     display: block;
     max-width: 572px;
   }
+  .sale {
+    padding-bottom: 128px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -257,7 +258,6 @@ img {
   }
 
   .sale-picture-big {
-    margin-right: 40px;
     margin: 0 auto;
   }
 
@@ -265,11 +265,8 @@ img {
     margin-bottom: 80px;
   }
 
-  .sale-item-big {
-    margin-right: 40px;
-  }
-
   .sale-gallery {
+    margin-right: 40px;
     margin-bottom: 0;
   }
 
@@ -280,24 +277,14 @@ img {
     display: block;
     width: 369px;
   }
+  .sale {
+    padding-bottom: 160px;
+  }
 }
 
 .container {
   padding: 0 20px;
   max-width: 100%;
-}
-
-@media screen and (max-width: 364px) {
-  .container {
-    max-width: 100%;
-  }
-}
-
-@media screen and (min-width: 375px) {
-  .container {
-    margin: 0 15px;
-    max-width: 365px;
-  }
 }
 
 @media screen and (min-width: 768px) {
