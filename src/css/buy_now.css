@@ -211,9 +211,8 @@
     margin-right: auto;
     margin-bottom: 12px;
     padding-top: 16px;
-    padding-right: 116px;
     padding-bottom: 16px;
-    padding-left: 116px;
+    width: 100%;
     border: none;
     cursor: pointer;
     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -259,6 +258,12 @@ border-radius: 8px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
+}
+.cut-text-modal {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 265px;
+    white-space: nowrap;
 }
 
 .modal-form {
@@ -315,9 +320,9 @@ border-radius: 8px;
 
   
 
-    .modal-form-button {
-        padding-left: 152px;
-        padding-right: 152px;
+    
+    .modal-imges-div {
+        flex-wrap: nowrap;
     }
 
 }
@@ -338,10 +343,7 @@ border-radius: 8px;
         width: 508px;
     }
 
-    .modal-form-button {
-        padding-left: 222px;
-        padding-right: 222px;
-    }
+   
 
     .modal-input-text {
         margin-bottom: 40px;
