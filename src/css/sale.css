@@ -213,7 +213,7 @@ img {
     max-width: 365px;
   }
   .sale-item-big {
-    width: 235px;
+    max-width: 235px;
     height: 350px;
   }
 
@@ -233,7 +233,7 @@ img {
     letter-spacing: -0.02em;
   }
   .sale-picture-big {
-    width: 235px;
+    max-width: 235px;
     height: 350px;
   }
   .sale-item-text {
