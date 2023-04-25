@@ -180,17 +180,9 @@
     width: calc((100% - 72px) / 4);
     height: 375px;
   }
-  /* .flip-card .flip-card-inner {
-    width: 276px;
-    height: 325px;
-  } */
   .catalog-list-item .flip-card .flip-card-inner {
     width: 276px;
   }
-
-  /* .catalog-list-item .flip-card {
-    width: 276px;
-  } */
   .flip-back-wrap {
     padding: 20px 20px;
   }
