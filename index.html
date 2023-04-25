@@ -17,8 +17,8 @@
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
     
-    <script type="module" crossorigin src="/project-group/assets/index-e6b8c289.js"></script>
-    <link rel="stylesheet" href="/project-group/assets/index-09c7cbb7.css">
+    <script type="module" crossorigin src="/project-group/assets/index-932d6ec8.js"></script>
+    <link rel="stylesheet" href="/project-group/assets/index-1e10150b.css">
   </head>
 
   <body>
@@ -861,7 +861,7 @@
 </div>
 </section>
     <!-- Burger menu -->
-    <div class="burger-mobile-menu is-hidden" data-modal>
+    <div class="burger-mobile-menu js-menu-container" id="mobile-menu">
   <div class="burger-mobile-menu_coteiner coteiner">
     <div class="burger-mobile-menu-top">
       <a href="./index.html" class="link-logo">
@@ -869,15 +869,17 @@
         <span class="logo-text">thewatchspot</span>
       </a>
 
-      <button class="burger-mobile-menu_close-btn" type="button" data-modal-close>
+      <button class="burger-mobile-menu_close-btn js-close-menu" type="button">
         <svg class="burger-mobile-menu_close-icon" width="12" height="12">
-          <use href="./sprite.svg#icon-close-black-18dp-2-1"></use>
+          <use href="/project-group/assets/sprite-0d0e9d72.svg#icon-close-black-18dp-2-1"></use>
         </svg>
       </button>
     </div>
     <ul class="burger-mobile-header-nav list">
       <li class="burger-mobile-header-item">
-        <a class="burger-mobile-header-link link current" href="#about">About us</a>
+        <a class="burger-mobile-header-link link current" href="#about"
+          >About us</a
+        >
       </li>
       <li class="burger-mobile-header-item">
         <a class="burger-mobile-header-link link" href="#catalog">Catalog</a>
@@ -889,6 +891,13 @@
   </div>
 </div>
 
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   </body>
