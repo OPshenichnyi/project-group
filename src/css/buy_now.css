@@ -204,9 +204,9 @@ transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubi
 
 .modal-form-button:hover,
 .modal-form-button:focus {
-    background: #404BBF;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
+    background: #1E2827;
+border: 1px solid #FFFFFF;
+border-radius: 8px;
 }
     
 
