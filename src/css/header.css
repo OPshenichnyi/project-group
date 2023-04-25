@@ -1,6 +1,7 @@
 .header {
     position: absolute;
     width: 100%;
+    top: 34px;
 }
 
 .container {
@@ -15,7 +16,6 @@
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 29px;
 
 }
 
@@ -84,6 +84,9 @@
 
 
 @media screen and (min-width: 375px) {
+    .header {
+            top: 38px;
+        }
     .container {
         max-width: 335px;
         padding-left: 15px;
@@ -97,6 +100,7 @@
 
 
 @media screen and (max-width: 767px) {
+  
     .address-list {
         display: none;
     }
