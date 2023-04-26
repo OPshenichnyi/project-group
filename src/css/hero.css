@@ -1,13 +1,5 @@
-.container {
-  max-width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
-
 .hero {
   padding-top: 122px;
-  padding-bottom: 20px;
   padding-bottom: 40px;
   background-color: var(--hero-bgc);
 }
@@ -111,7 +103,7 @@
   font-weight: 300;
   font-size: 14px;
   line-height: 1.28;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.02em;
 }
 .hero-img {
   height: 410px;
@@ -126,10 +118,10 @@
 @media screen and (min-width: 375px) {
   .container {
     max-width: 365px;
-    padding: 0 15px;
+    /* padding: 0 15px; */
   }
   .hero-title-text {
-    font-size: 38px;
+    font-size: 37px;
   }
 
   .hero-img {
@@ -138,10 +130,6 @@
   }
 }
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding: 0 32px;
-  }
   .hero {
     padding-top: 148px;
     padding-bottom: 64px;
@@ -152,9 +140,10 @@
   }
   .hero-title {
     max-width: 653px;
+    letter-spacing: -0.04em;
   }
   .hero-title-text {
-    font-size: 60px;
+    font-size: 56px;
     line-height: 1.03;
   }
   .swiper {
@@ -177,10 +166,6 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1206px;
-    padding: 0 15px;
-  }
   .hero {
     padding-bottom: 80px;
   }
