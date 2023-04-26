@@ -3,6 +3,8 @@
     width: 100%;
     z-index: 999;
     background-color: var(--hero-bgc);
+    padding-top: 29px;
+    padding-bottom: 29px;
 }
 
 
@@ -13,8 +15,7 @@
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 29px;
-    padding-bottom: 29px;
+
 
 }
 
@@ -25,6 +26,7 @@
 
 .link-logo {
     display: flex;
+    align-items: flex-end;
 }
 
 .img-logo {
@@ -102,7 +104,7 @@
 @media screen and (min-width: 768px) {
 
 
-    .header-container {
+    .header {
         padding-top: 20px;
         padding-bottom: 20px;
     }
@@ -110,6 +112,10 @@
     .img-logo {
         width: 19px;
         height: 19px;
+    }
+
+    .link-logo {
+        align-items: unset;
     }
 
     .open-btn-menu {
