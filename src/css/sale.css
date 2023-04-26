@@ -61,7 +61,6 @@ img {
 
 .sale-container {
   padding-top: 40px;
-  padding-bottom: 80px;
 }
 
 .sale-gallery-item:not(:last-child) {
@@ -240,9 +239,7 @@ img {
     display: block;
     max-width: 335px;
   }
-  .sale {
-    padding-bottom: 80px;
-  }
+
 }
 
 @media screen and (min-width: 768px) {
