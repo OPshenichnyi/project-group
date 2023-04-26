@@ -28,7 +28,7 @@ img {
   height: auto;
 }
 .container {
-  padding: 0 20px;
+  /* padding: 0 20px; */
   max-width: 365px;
 }
 
@@ -209,7 +209,7 @@ img {
 /***********************************media****************************************/
 @media screen and (max-width: 767px) {
   .container {
-    padding: 0 15px;
+    /* padding: 0 15px; */
     max-width: 365px;
   }
   .sale-item-big {
@@ -247,7 +247,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .container {
-    padding: 0 15px;
+    /* padding: 0 15px; */
     max-width: 734px;
   }
   .sale-item-big {
@@ -287,7 +287,7 @@ img {
 
 @media screen and (min-width: 1280px) {
   .container {
-    padding: 0 15px;
+    /* padding: 0 15px; */
     max-width: 1206px;
   }
   .sale-wrap {

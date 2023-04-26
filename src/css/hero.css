@@ -118,7 +118,7 @@
 @media screen and (min-width: 375px) {
   .container {
     max-width: 365px;
-    padding: 0 15px;
+    /* padding: 0 15px; */
   }
   .hero-title-text {
     font-size: 37px;
