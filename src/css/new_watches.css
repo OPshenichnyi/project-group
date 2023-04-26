@@ -1,12 +1,16 @@
 @media screen and (max-width:767px) {
 
+.new-watches {
+    padding-bottom: 80px;
+}
+
     .new-cont {
         max-width: 365px;
         padding-left: 15px;
         padding-right: 15px;
         margin-left: auto;
         margin-right: auto;
-        padding-bottom: 80px;
+        
     }
 
     .new-block-1 {
@@ -61,11 +65,13 @@
         padding-right: 15px;
         margin-left: auto;
         margin-right: auto;
-        padding-bottom: 128px;
+        
 
     }
 
-
+    .new-watches {
+        padding-bottom: 128px;
+    }
 
     .new-block-1 {
         margin-bottom: 40px;
@@ -120,13 +126,18 @@
 
 @media screen and (min-width: 1280px) {
 
+    .new-watches {
+        padding-top: 80px;
+        padding-bottom: 160px;
+    }
+
     .new-cont {
         max-width: 1206px;
         padding-left: 15px;
         padding-right: 15px;
         margin-left: auto;
         margin-right: auto;
-        padding-bottom: 160px;
+        
     }
 
     .new-block-1 {

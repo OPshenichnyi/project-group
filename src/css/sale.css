@@ -59,9 +59,7 @@ img {
   display: flex;
 }
 
-.sale-container {
-  padding-top: 40px;
-}
+
 
 .sale-gallery-item:not(:last-child) {
   margin-bottom: 10px;
