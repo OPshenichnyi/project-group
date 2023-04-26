@@ -246,14 +246,6 @@ border-radius: 8px;
     flex-wrap: wrap;
 }
 
-.btn:hover {
-    background: #1E2827;
-    border: 1px solid #FFFFFF;
-    border-radius: 8px;
-}
-
-
-
 .containerr {
     width: 100%;
     margin: 0 auto;
