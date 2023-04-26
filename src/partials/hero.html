@@ -68,12 +68,12 @@
           <div class="slider-navigation-buttons">
             <div class="hero-swiper-button-prev">
               <svg class="hero-button-prev-icon" width="18px" height="18px">
-                <use href="../img/sprite.svg#icon-chevron-left18x18"></use>
+                <use href="./img/sprite.svg#icon-chevron-left18x18"></use>
               </svg>
             </div>
             <div class="hero-swiper-button-next">
               <svg class="hero-button-next-icon" width="18px" height="18px">
-                <use href="../img/sprite.svg#icon-chevron-right18x18"></use>
+                <use href="./img/sprite.svg#icon-chevron-right18x18"></use>
               </svg>
             </div>
           </div>
@@ -89,15 +89,28 @@
         </p>
       </div>
       <div class="hero-img">
-        <img
-          srcset="
-            ./img/tab/1x/tab-hero-img.jpg    1x,
-            ./img/tab/2x/tab-hero-img-2x.jpg 2x
-          "
-          src="./img/tab/1x/tab-hero-img.jpg"
-          alt="The watch"
-          class="hero-img-watch"
-        />
+        <picture>
+          <source
+            media="(max-width:768px)"
+            srcset="
+              ./img/mobile/1x/mob-hero-img.jpg    1x,
+              ./img/mobile/2x/mob-hero-img-2x.jpg 2x
+            "
+          />
+          <source
+            media="(max-width:1280px)"
+            srcset="
+              ./img/tab/1x/tab-hero-img.jpg    1x,
+              ./img/tab/2x/tab-hero-img-2x.jpg 2x
+            "
+          />
+
+          <img
+            src="./img/desctop/1x/desc-hero-img.jpg "
+            alt="The watch"
+            class="hero-img-watch"
+          />
+        </picture>
       </div>
     </div>
   </div>
