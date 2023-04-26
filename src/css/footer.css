@@ -7,11 +7,15 @@
     background-color: var(--hero-watches-bgc);
     color: var(--hero-text-color);
   }
+
+  .footer {
+    padding-top: 40px;
+  }
   .footer-container {
     display: flex;
     flex-wrap: wrap;
     /* flex-direction: column; */
-    padding-top: 40px;
+    
     padding-bottom: 20px;
     /* position: relative; */
   }
@@ -121,12 +125,17 @@
 }
 /* ======================== TABLET ========================== */
 @media screen and (min-width: 768px) {
+  
+  .footer {
+    padding-top: 80px;
+  }
+  
   .footer-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     position: static;
-    padding-top: 80px;
+   
   }
   .footer-wrap {
     width: 100%;
@@ -197,9 +206,13 @@
 
 /* ======================== DESKTOP ========================== */
 @media screen and (min-width: 1280px) {
+  .footer {
+    padding-top: 104px;
+  }
+  
   .footer-container {
     gap: 0px;
-    padding-top: 104px;
+    
     padding-bottom: 32px;
   }
   .footer-wrap {
