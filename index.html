@@ -18,7 +18,7 @@
     />
     
     <script type="module" crossorigin src="/project-group/assets/index-932d6ec8.js"></script>
-    <link rel="stylesheet" href="/project-group/assets/index-62113242.css">
+    <link rel="stylesheet" href="/project-group/assets/index-7926afb8.css">
   </head>
 
   <body>
@@ -106,12 +106,12 @@
           <div class="slider-navigation-buttons">
             <div class="hero-swiper-button-prev">
               <svg class="hero-button-prev-icon" width="18px" height="18px">
-                <use href="../img/sprite.svg#icon-chevron-left18x18"></use>
+                <use href="/project-group/assets/sprite-0d0e9d72.svg#icon-chevron-left18x18"></use>
               </svg>
             </div>
             <div class="hero-swiper-button-next">
               <svg class="hero-button-next-icon" width="18px" height="18px">
-                <use href="../img/sprite.svg#icon-chevron-right18x18"></use>
+                <use href="/project-group/assets/sprite-0d0e9d72.svg#icon-chevron-right18x18"></use>
               </svg>
             </div>
           </div>
@@ -127,12 +127,22 @@
         </p>
       </div>
       <div class="hero-img">
-        <img
-          srcset="/project-group/assets/tab-hero-img-0da36374.jpg 1x, /project-group/assets/tab-hero-img-2x-38ea8427.jpg 2x"
-          src="/project-group/assets/tab-hero-img-0da36374.jpg"
-          alt="The watch"
-          class="hero-img-watch"
-        />
+        <picture>
+          <source
+            media="(max-width:768px)"
+            srcset="/project-group/assets/mob-hero-img-ba06e891.jpg 1x, /project-group/assets/mob-hero-img-2x-3eaa048d.jpg 2x"
+          />
+          <source
+            media="(max-width:1280px)"
+            srcset="/project-group/assets/tab-hero-img-0da36374.jpg 1x, /project-group/assets/tab-hero-img-2x-38ea8427.jpg 2x"
+          />
+
+          <img
+            src="./img/desctop/1x/desc-hero-img.jpg "
+            alt="The watch"
+            class="hero-img-watch"
+          />
+        </picture>
       </div>
     </div>
   </div>
