@@ -20,9 +20,9 @@
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     position: absolute;
-    top: 50%;
+    top: 73px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0);
 }
 
 .modal-imges-div {
@@ -278,9 +278,7 @@ border-radius: 8px;
     .modal {
         max-width: 295px;
         padding: 20px;
-        top: 73px;
-        left: 50%;
-        transform: translate(-50%, 0);
+        
 
     }
 
