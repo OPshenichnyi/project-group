@@ -273,7 +273,7 @@ border-radius: 8px;
 }
 
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 320px) {
     .modal {
         max-width: 295px;
         padding: 20px;
