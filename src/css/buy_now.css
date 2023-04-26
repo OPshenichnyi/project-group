@@ -37,6 +37,7 @@
     width: 100%;
  }
 
+
 .button-modal {
 
     display: block;
@@ -317,7 +318,9 @@ border-radius: 8px;
     .modal-imges {
         margin-bottom: 0;
     }
-
+    .form-fil:nth-child(4n+4) {
+        margin-bottom: 0;    
+    }
   
 
     
